@@ -1,0 +1,19 @@
+.containerCards{
+    min-height: 100px;
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+
+    @media(min-width: 700px){ 
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+    
+}

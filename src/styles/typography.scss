@@ -1,0 +1,47 @@
+.title {
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: var(--font-family);
+
+    &.one {
+    font-size: 26px;
+
+    }
+
+    &.two {
+    font-size: 22px;
+
+    }
+
+    &.three {
+    font-size: 18px;
+
+    }
+}
+
+.sm {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: var(--font-family);
+    color: var(--Gray-4);
+
+}
+
+.Headline {
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--Gray-4);
+    font-family: var(--font-family);
+
+    &.sm {
+    font-size: 14px;
+
+    }
+
+    &.capition {
+    font-size: 12px;
+
+    }
+    
+}

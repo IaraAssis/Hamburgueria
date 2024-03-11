@@ -1,0 +1,49 @@
+.cards{
+    width: 100%;
+    min-width: 100px;
+    min-height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content:first baseline;
+    background: var(--White);
+
+    &:hover{
+        transition: all 300ms ease-in-out;
+        transform: translateX(0.625rem);
+        border-color: var(--Color-primary); 
+        
+    }
+
+    h3{
+        margin:  10px 20px 10px 20px;
+        width: 280px;
+
+        @media (min-width: 900px) {
+            margin: 10px 130px 0px 0px ;
+            
+        }
+    }
+
+    button{
+        margin:  10px 10px 0px 0px;
+        color: var(--Gray-2);
+
+    }
+
+}
+
+.categorys{
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+    margin-top: 10px ;
+    background: var(--White);
+    background: var(--Gray-0);
+    
+    img{
+        max-height: 120px;
+
+    }
+
+}

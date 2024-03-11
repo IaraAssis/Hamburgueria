@@ -1,0 +1,9 @@
+@import "./reset.scss";
+@import "./global.scss";
+@import "./typography.scss";
+@import "./button.scss";
+@import "./grid.scss";
+
+body {
+    font-family: var(--font-family);
+}

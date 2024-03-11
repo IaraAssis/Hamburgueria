@@ -1,0 +1,49 @@
+.btnBig {
+
+    cursor: pointer;
+    align-items: center;
+    height: 3.75rem;
+    padding: 0px 10px 0px 20px;
+    border-radius: 0.5rem;
+
+    font-family: var(--font-family);
+    color: var(--Gray-3);
+    background: var(--Gray-1);
+    border: 2px solid var(--Gray-1);
+
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.21rem;
+
+    &:hover {
+        background: var(--Color-primary);
+        border: 2px solid var(--Color-primary);
+        color: var(--White);
+    }
+}
+
+.btnSm {
+
+    cursor: pointer;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 0.5rem;
+    width: 115px;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.21rem;
+
+    font-family: var(--font-family);
+    color: var(--White);
+    background: var(--Gray-2);
+    border: 2px solid var(--Gray-2);
+
+
+    &:hover {
+        background: var(--Color-primary);
+        border: 2px solid var(--Color-primary);
+        color: var(--White);
+    }
+
+}

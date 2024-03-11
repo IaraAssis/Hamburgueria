@@ -1,0 +1,107 @@
+header{
+    align-items: center;
+    background: var(--Gray-0);
+    font-family: var(--font-family);
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    img{
+        width: 9.375rem;
+        align-items: center;
+        margin-bottom: 1.5625rem;
+
+    }
+
+    p{
+        position: relative;
+        bottom: 5px;
+        gap: 5px;
+        color: var(--Gray-2);
+
+        span{
+            position: absolute;
+            bottom:40px;
+            right: -2px;
+            padding: 2px 6px;
+            
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 12px;
+            color: var(--Gray-2);
+            background: var(--Color-Sucess);
+
+        }
+
+        @media (min-width: 700px) {
+            left: 250px;
+            top: 5px;  
+            
+        }
+
+    }
+    
+    form{
+
+        position: relative;
+        bottom: 10px;
+        height: 60px;
+        border-radius: 8px;
+        width: 100%;
+        background: var(--White);
+        border: 2px solid var(--Gray-1);
+
+        @media (min-width: 700px) {
+            width: 40%;
+            bottom: 15px;
+            
+        }
+
+        input{
+            padding: 0 10px;
+            border-radius: 8px;
+            height: 3.5rem;
+            outline: none;
+            width: 100%;
+            border: 1px solid transparent;
+            color: var(--Gray-4);
+            background: var(--White);
+
+            &:focus{
+                transition: border-color 0.3s ease;
+                border-color: var(--Color-primary);
+                box-shadow: 0 0 5px var(--Color-primary);
+
+            }
+        
+        }
+        button{
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            padding: 6px 10px;
+            width: 50px;
+            background: var(--Color-primary);
+            border: 2px solid var(--Color-primary);
+        }
+
+    }
+
+}
+
+form:focus{
+    border: 2px solid var(--Color-Sucess);
+
+}
+
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
